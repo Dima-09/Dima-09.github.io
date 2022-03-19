@@ -1,17 +1,27 @@
-* {
+html, body {
     margin: 0;
-    padding: 0;
-}
-
-p {
-    color: rgb(255, 0, 0);
-}
-
-img {
-    margin: 0 auto;
-    display: block;
-}
-
-h1 {
+  }
+  
+  html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+  }
+  
+  body {
+    overflow: hidden;
+    height: inherit;
+  }
+  
+  h1 {
+      margin: 0;
+    font-size: 2rem;
+    letter-spacing: -1px;
+    position: absolute;
+    width: 100%;
     text-align: center;
-}
+    top: 40%;
+
+  
+    color: transparent;
+    text-shadow: 0 0 4px rgb(11, 231, 198);
+  }
